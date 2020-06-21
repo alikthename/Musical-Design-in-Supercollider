@@ -47,6 +47,9 @@ Routine({
 (	// to be put to Platform.userConfigDir +/+ "startup.scd"
 
 ~serverBootFunc = { |server|
+
+        var wtsize, wtpaths, wtbuffers;
+	
 	"-----------wavetables begin-----------".postln;	
 
 
